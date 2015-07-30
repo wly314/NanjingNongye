@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D82CEF761B69D192001EB46E /* guanyu2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D82CEF741B69D192001EB46E /* guanyu2@2x.png */; };
+		D82CEF771B69D192001EB46E /* guanyu2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D82CEF751B69D192001EB46E /* guanyu2@3x.png */; };
 		D8745D021B68AED100E156F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D011B68AED100E156F0 /* AppDelegate.swift */; };
 		D8745D051B68AED100E156F0 /* NanjingNongye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8745D031B68AED100E156F0 /* NanjingNongye.xcdatamodeld */; };
 		D8745D071B68AED100E156F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D061B68AED100E156F0 /* ViewController.swift */; };
@@ -14,6 +16,12 @@
 		D8745D0C1B68AED100E156F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8745D0B1B68AED100E156F0 /* Images.xcassets */; };
 		D8745D0F1B68AED100E156F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8745D0D1B68AED100E156F0 /* LaunchScreen.xib */; };
 		D8745D1B1B68AED200E156F0 /* NanjingNongyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D1A1B68AED200E156F0 /* NanjingNongyeTests.swift */; };
+		D8745D291B68C9C300E156F0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D281B68C9C300E156F0 /* MainTabBarController.swift */; };
+		D8745D2B1B68CC2E00E156F0 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D2A1B68CC2E00E156F0 /* MainNavigationController.swift */; };
+		D8745D2D1B68CDF200E156F0 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D2C1B68CDF200E156F0 /* NormalViewController.swift */; };
+		D8745D301B68CE2500E156F0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8745D2F1B68CE2500E156F0 /* FirstViewController.swift */; };
+		D8745D371B68D9CA00E156F0 /* tab_zhidu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8745D351B68D9CA00E156F0 /* tab_zhidu@2x.png */; };
+		D8745D381B68D9CA00E156F0 /* tab_zhidu_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8745D361B68D9CA00E156F0 /* tab_zhidu_s@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D82CEF741B69D192001EB46E /* guanyu2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guanyu2@2x.png"; sourceTree = "<group>"; };
+		D82CEF751B69D192001EB46E /* guanyu2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guanyu2@3x.png"; sourceTree = "<group>"; };
 		D8745CFC1B68AED100E156F0 /* NanjingNongye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NanjingNongye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8745D001B68AED100E156F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8745D011B68AED100E156F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +48,12 @@
 		D8745D141B68AED200E156F0 /* NanjingNongyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanjingNongyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8745D191B68AED200E156F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8745D1A1B68AED200E156F0 /* NanjingNongyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanjingNongyeTests.swift; sourceTree = "<group>"; };
+		D8745D281B68C9C300E156F0 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D8745D2A1B68CC2E00E156F0 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		D8745D2C1B68CDF200E156F0 /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
+		D8745D2F1B68CE2500E156F0 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D8745D351B68D9CA00E156F0 /* tab_zhidu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_zhidu@2x.png"; sourceTree = "<group>"; };
+		D8745D361B68D9CA00E156F0 /* tab_zhidu_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_zhidu_s@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,8 @@
 				D8745D0B1B68AED100E156F0 /* Images.xcassets */,
 				D8745D0D1B68AED100E156F0 /* LaunchScreen.xib */,
 				D8745D031B68AED100E156F0 /* NanjingNongye.xcdatamodeld */,
+				D8745D251B68C87F00E156F0 /* Resources */,
+				D8745D241B68C84C00E156F0 /* MainClass */,
 				D8745CFF1B68AED100E156F0 /* Supporting Files */,
 			);
 			path = NanjingNongye;
@@ -113,6 +131,52 @@
 				D8745D191B68AED200E156F0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8745D241B68C84C00E156F0 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+				D8745D2E1B68CE0900E156F0 /* FirstVC */,
+				D8745D271B68C99E00E156F0 /* Main */,
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		D8745D251B68C87F00E156F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8745D261B68C8B800E156F0 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8745D261B68C8B800E156F0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D82CEF741B69D192001EB46E /* guanyu2@2x.png */,
+				D82CEF751B69D192001EB46E /* guanyu2@3x.png */,
+				D8745D351B68D9CA00E156F0 /* tab_zhidu@2x.png */,
+				D8745D361B68D9CA00E156F0 /* tab_zhidu_s@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D8745D271B68C99E00E156F0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D8745D281B68C9C300E156F0 /* MainTabBarController.swift */,
+				D8745D2A1B68CC2E00E156F0 /* MainNavigationController.swift */,
+				D8745D2C1B68CDF200E156F0 /* NormalViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D8745D2E1B68CE0900E156F0 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				D8745D2F1B68CE2500E156F0 /* FirstViewController.swift */,
+			);
+			path = FirstVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,9 +259,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D82CEF761B69D192001EB46E /* guanyu2@2x.png in Resources */,
 				D8745D0A1B68AED100E156F0 /* Main.storyboard in Resources */,
 				D8745D0F1B68AED100E156F0 /* LaunchScreen.xib in Resources */,
+				D82CEF771B69D192001EB46E /* guanyu2@3x.png in Resources */,
 				D8745D0C1B68AED100E156F0 /* Images.xcassets in Resources */,
+				D8745D381B68D9CA00E156F0 /* tab_zhidu_s@2x.png in Resources */,
+				D8745D371B68D9CA00E156F0 /* tab_zhidu@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8745D2B1B68CC2E00E156F0 /* MainNavigationController.swift in Sources */,
+				D8745D2D1B68CDF200E156F0 /* NormalViewController.swift in Sources */,
 				D8745D071B68AED100E156F0 /* ViewController.swift in Sources */,
 				D8745D021B68AED100E156F0 /* AppDelegate.swift in Sources */,
+				D8745D291B68C9C300E156F0 /* MainTabBarController.swift in Sources */,
 				D8745D051B68AED100E156F0 /* NanjingNongye.xcdatamodeld in Sources */,
+				D8745D301B68CE2500E156F0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +487,7 @@
 				D8745D201B68AED200E156F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8745D211B68AED200E156F0 /* Build configuration list for PBXNativeTarget "NanjingNongyeTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +496,7 @@
 				D8745D231B68AED200E156F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
