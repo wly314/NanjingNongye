@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         passwordText.textColor = UIColor.whiteColor()
         self.view.addSubview(passwordText)
         
-        var loginButton:UIButton = UIButton.buttonWithType(UIButtonType.ContactAdd) as! UIButton;
+        var loginButton:UIButton = UIButton.init(type: UIButtonType.Custom);
         loginButton.frame=CGRectMake(20, 200, self.view.bounds.size.width-20*2, 40);
         loginButton.tintColor = UIColor.whiteColor()
 //        button.setTitle("按钮", forState:UIControlState.Normal)

@@ -22,7 +22,7 @@ class FirstViewController: UIViewController {
         self.view.backgroundColor = UIColor.whiteColor()
         
         
-        let rightBtn:UIButton = UIButton.buttonWithType(UIButtonType.ContactAdd) as! UIButton
+        let rightBtn:UIButton = UIButton.init(type: UIButtonType.Custom)
         rightBtn.frame = CGRectMake(0, 0, 40, 40)
         self.navigationItem.rightBarButtonItem = nil
     }
